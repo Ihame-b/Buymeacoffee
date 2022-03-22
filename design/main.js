@@ -6,7 +6,7 @@ function payNow(e) {
  
     FlutterwaveCheckout({
       
-      public_key: "FLWPUBK_TEST-f0cc1b7d0d1eb823850c4a1ce19efbe0-X",
+      public_key: "FLWPUBK-353acf10898af342466a3b1110de381f-X",
       tx_ref: "AK_"+Math.floor((Math.random() * 1000000000) + 1),
       amount: document.getElementById("amount").value,
       currency: "RWF",
@@ -25,7 +25,7 @@ function payNow(e) {
       },
 	  
       customizations: {
-        title: "AppKinda",
+        title: "IHAME App",
         description: "FlutterWave Integration in Javascript.",
 		    logo: "C:\Users\IHAME\Desktop\WebDesign\IhameWebsite\design\20211128_231345_0000.png",
       },
